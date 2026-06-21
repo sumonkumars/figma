@@ -1,3 +1,83 @@
-h1{
-    color: red;
+/* all common css star */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
+ul ,ol{
+   list-style-type: none; 
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* all common css end */
+/* haeder part css style start */
+#haederPart{
+    margin: 34px 0;
+ 
+
+}
+.haederFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 24px;
+}
+.menu ul li{
+   font-weight: 700;
+   font-size: 18;
+   color: #181818;
+   transition: .5s;
+   
+}
+.menu ul li:hover{
+    color: #5956E8;
+}
+.haederButton button{
+    padding: 13px 24px;
+    background: #5956E8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* haeder part css style end */
+/* banner style start */
+#bannerPart{
+    background: #5956E8;
+    padding: 183px 0px;
+}
+.bannerFlex{
+    display: flex;
+   align-items: center;
+   justify-content: space-betweeng;
+}
+.bannerLeft h1{
+    width: 501px;
+    font-size: 65px;
+    font-weight: 700px;
+    color: white;
+    line-height: 80px;
+
+}
+.bannerLeft p{
+    line-height: 27px;
+    color: white;
+    width: 542px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.bannerButton button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13 22;
+    color: #5956E8;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+/* banner style end */
